@@ -1,111 +1,139 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/83fed239-c625-4f25-be08-506f3c25e024.json",
-	"@type": "sc:Manifest",
-	"label": "Ashmolean Museum Evans Architectural Plans D/4 with a secret van Gogh connection",
-	"description": "[Sketch plan of Room of the Stone Bench with reference to Shafts A and B]",
-	"metadata": [
+	"@id": "https://data.ucd.ie/api/img/manifests/ucdlib:30708",
+	"seeAlso": [
 		{
-			"label": "Homepage",
-			"value": "<span><a href=\"https://digital.bodleian.ox.ac.uk/inquire/p/83fed239-c625-4f25-be08-506f3c25e024\">View on Digital Bodleian</a></span>"
+			"@id": "https://digital.ucd.ie/view/ucdlib:30708.xml",
+			"format": "text/xml",
+			"profile": "http://www.loc.gov/mods/v3",
+			"label": "MODS metadata describing this object"
 		},
 		{
-			"label": "Title",
-			"value": "[Sketch plan of Room of the Stone Bench with reference to Shafts A and B]"
+			"@id": "https://digital.ucd.ie/view/ucdlib:30708.n3",
+			"format": "text/rdf+n3",
+			"label": "RDF n3 serialisation of metadata describing this object"
 		},
 		{
-			"label": "Description",
-			"value": "Original pencil"
+			"@id": "https://data.ucd.ie/api/edm/v1/ucdlib:30708",
+			"format": "application/x.europeana-edm+xml",
+			"label": "EDM (Europeana Data Model) RDF metadata",
+			"profile": "http://www.europeana.eu/schemas/edm/"
 		},
 		{
-			"label": "Extent",
-			"value": "630x710 mm"
-		},
-		{
-			"label": "Collection",
-			"value": "History and Politics"
-		},
-		{
-			"label": "Collection",
-			"value": "Archives and Modern Manuscripts"
-		},
-		{
-			"label": "Collection",
-			"value": "Ashmolean Museum"
-		},
-		{
-			"label": "Collection",
-			"value": "Arthur Evans Archive (Knossos Excavations)"
-		},
-		{
-			"label": "Subject",
-			"value": "Knossos (Extinct City)--Drains"
-		},
-		{
-			"label": "Subject",
-			"value": "Evans, Arthur  Sir  1851-1941"
-		},
-		{
-			"label": "Other Identifier",
-			"value": "Evans Architectural Plans D/4"
-		},
-		{
-			"label": "Record Created",
-			"value": "2015-07-10T00:00:00Z"
-		},
-		{
-			"label": "Holding Institution",
-			"value": "Ashmolean Museum, University of Oxford"
+			"@id": "https://digital.ucd.ie/view/ucdlib:30708.rdf",
+			"format": "application/rdf+xml",
+			"label": "RDF-XML metadata describing this object"
 		}
 	],
-	"rendering": {
-		"@id": "https://digital.bodleian.ox.ac.uk/inquire/p/83fed239-c625-4f25-be08-506f3c25e024",
-		"label": "View on Digital Bodleian",
-		"format": "text/html"
+	"within": {
+		"@id": "https://data.ucd.ie/api/img/collection/ucdlib:30685",
+		"@type": "sc:Collection",
+		"label": "Desmond FitzGerald Photographs"
 	},
-	"attribution": "http://creativecommons.org/licenses/by-nc-sa/3.0/.",
-	"logo": {
-		"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/2bf5b72e-993a-4f7b-97b8-421371e0ff99/full/256,/0/default.jpg",
-		"service": {
-			"@context": "http://iiif.io/api/image/2/context.json",
-			"profile": "http://iiif.io/api/image/2/level1.json",
-			"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/2bf5b72e-993a-4f7b-97b8-421371e0ff99"
+	"navDate": "1922-06-01T00:00:00Z",
+	"attribution": "UCD Archives",
+	"logo": "https://digital.ucd.ie/images/logos/ucd_logo_sm.png",
+	"description": "The photograph is probably by W.D. Hogan. One soldier is in the process of firing, the others stand at some distance mainly with their ears covered. (Similar photograph published in Michael Hopkinson&apos;s Green against Green (1988) with the following caption: ‘The opening shots of the Civil War, fired from Free State 18 pound field artillery supplied by the British Government. The gun was stationed at the junction of Bridge Street and Usher&apos;s Quay, just across the Liffey from the Four Courts&apos;.",
+	"label": "A group of Irish Free State Army soldiers firing artillery on the Four Courts",
+	"license": "http://creativecommons.org/licenses/by-nc-sa/3.0/ie/",
+	"@type": "sc:Manifest",
+	"thumbnail": "https://digital.ucd.ie/get/ucdlib:30708/thumbnail",
+	"metadata": [
+		{
+			"label": "title",
+			"value": "A group of Irish Free State Army soldiers firing artillery on the Four Courts"
+		},
+		{
+			"label": "Type of resource",
+			"value": [
+				{
+					"@value": "dctypes:StillImage"
+				}
+			]
+		},
+		{
+			"label": "published",
+			"value": [
+				{
+					"@value": "Dublin, Ireland"
+				}
+			]
+		},
+		{
+			"label": "created",
+			"value": "1922-06"
+		},
+		{
+			"label": "permalink",
+			"value": "doi:10.7925/drs1.ucdlib_30708"
+		},
+		{
+			"label": "topic-LCSH",
+			"value": [
+				{
+					"@value": "History"
+				}
+			]
+		},
+		{
+			"label": "genre",
+			"value": "Photographs"
 		}
-	},
-	"thumbnail": {
-		"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024/full/256,/0/default.jpg",
-		"service": {
-			"@context": "http://iiif.io/api/image/2/context.json",
-			"profile": "http://iiif.io/api/image/2/level1.json",
-			"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024"
-		}
-	},
-	"viewingHint": "individuals",
+	],
 	"sequences": [
 		{
-			"@id": "https://iiif.bodleian.ox.ac.uk/iiif/sequence/83fed239-c625-4f25-be08-506f3c25e024_default.json",
+			"@context": "http://iiif.io/api/presentation/2/context.json",
+			"@id": "https://data.ucd.ie/api/img/manifests/ucdlib:30708/sequence/normal",
 			"@type": "sc:Sequence",
-			"label": "Default",
+			"label": "Current Page Order",
+			"viewingHint": "individuals",
 			"canvases": [
 				{
-					"@id": "http://5fb0c5b1-5ade-4d7a-96e4-6ae2195243a6",
+					"@id": "https://data.ucd.ie/api/img/ucdlib:30708/canvas/ucdlib:30895",
+					"@type": "sc:Canvas",
+					"label": "1P80PH/023",
+					"width": 4547,
+					"height": 3354,
+					"images": [
+						{
+							"resource": {
+								"service": {
+									"@id": "https://iiif.ucd.ie/loris/ucdlib:30895",
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"format": "image/jpeg",
+								"height": 3354,
+								"width": 4547,
+								"@id": "https://iiif.ucd.ie/loris/ucdlib:30895/full/full/0/default.jpg",
+								"@type": "dcTypes:Image"
+							},
+							"on": "https://data.ucd.ie/api/img/ucdlib:30708/canvas/ucdlib:30895",
+							"motivation": "sc:painting",
+							"@id": "https://data.ucd.ie/api/img/ucdlib:30708/annotation/ucdlib:30895",
+							"@type": "oa:Annotation"
+						}
+					]
+				},
+				{
+					"@id": "http://cdddd28e-cabb-4a6f-84a2-36b2abf8c4a9",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
-					"height": 2550,
-					"width": 2259,
+					"height": 9092,
+					"width": 13401,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://4a404b04-0c28-4ca2-9ce4-24221c1d5060",
+							"@id": "http://0ed15020-f709-4983-bf38-f7e762a26642",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "https://ids.lib.harvard.edu/ids/iiif/47174892/full/full/0/default.jpg",
+								"@id": "https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://ids.lib.harvard.edu/ids/iiif/47174892",
+									"@id": "https://iiif.ucd.ie/loris/ucdlib:42220",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
@@ -114,18 +142,15 @@
 												"profileLinkHeader",
 												"mirroring",
 												"rotationArbitrary",
-												"regionSquare",
 												"sizeAboveFull"
 											],
 											"qualities": [
 												"default",
 												"bitonal",
-												"gray",
-												"color"
+												"gray"
 											],
 											"formats": [
 												"jpg",
-												"tif",
 												"png",
 												"gif",
 												"webp"
@@ -133,43 +158,41 @@
 										}
 									]
 								},
-								"height": 2550,
-								"width": 2259
+								"height": 9092,
+								"width": 13401
 							},
-							"on": "http://5fb0c5b1-5ade-4d7a-96e4-6ae2195243a6"
+							"on": "http://cdddd28e-cabb-4a6f-84a2-36b2abf8c4a9"
 						}
 					],
 					"related": ""
-				},
-				{
-					"@id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/83fed239-c625-4f25-be08-506f3c25e024.json",
-					"@type": "sc:Canvas",
-					"label": "Whole page",
-					"width": 14800,
-					"height": 8440,
-					"images": [
-						{
-							"@id": "https://iiif.bodleian.ox.ac.uk/iiif/annotation/83fed239-c625-4f25-be08-506f3c25e024.json",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"on": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/83fed239-c625-4f25-be08-506f3c25e024.json",
-							"resource": {
-								"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"width": 14800,
-								"height": 8440,
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"profile": "http://iiif.io/api/image/2/level1.json",
-									"@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/83fed239-c625-4f25-be08-506f3c25e024"
-								}
-							}
-						}
-					]
 				}
 			]
 		}
 	],
-	"viewingDirection": "left-to-right"
+	"service": [
+		{
+			"@context": "http://iiif.io/api/search/0/context.json",
+			"@id": "https://data.ucd.ie/api/img/search/ucdlib:30708",
+			"profile": "http://iiif.io/api/search/0/search",
+			"label": "UCD content search"
+		},
+		{
+			"@context": "http://geojson.org/contexts/geojson-base.jsonld",
+			"@id": "https://data.ucd.ie/api/geo/v1/dl/searchFilter=geometryByID(urn:osm:place_id,28889485)&format=geojson",
+			"label": "Point coordinates",
+			"profile": "http://geojson.org/geojson-spec.html",
+			"properties": {
+				"name": "group of Irish Free State Army soldiers firing artillery on the Four Courts",
+				"type": "dcterms:Point"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.27383877649958,
+					53.34611595
+				]
+			}
+		}
+	]
 }
