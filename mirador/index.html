@@ -37,7 +37,11 @@
             layout: "1x1",
             buildPath: "mirador/",
             data: manifestList,
-            windowObjects: [],
+            windowObjects: [
+              {
+                loadManifest: "https://azatuhib.github.io/iiif-for-scholars/manifests/manifest.json",
+                viewType: "ImageView"
+              }],
             annotationEndpoint: {
                 name:"Local Storage",
                 module: "LocalStorageEndpoint"
